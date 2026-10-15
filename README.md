@@ -22,6 +22,11 @@ A collection of hands-on machine learning projects using Python and Scikit-learn
 - Preparing data for classification
 - Setting up a Logistic Regression model
 
+### 3. Naive Bayes
+- Understanding Naive Bayes Classification
+- Text classification / Spam detection / Categorical data classification
+- Model training and evaluation
+
 ## Technologies Used
 
 - Python
@@ -38,19 +43,5 @@ A collection of hands-on machine learning projects using Python and Scikit-learn
 machine-learning-models/
 ├── Linear_Regression/
 ├── Logistic_Regression/
+├── Naive_Bayes/
 └── README.md
-```
-
-## Learning Objectives
-
-- Understand fundamental machine learning algorithms.
-- Practice data preprocessing and analysis.
-- Train and evaluate machine learning models.
-- Apply machine learning techniques to real-world datasets.
-
-## About
-
-I am a Software Engineering student exploring Machine Learning through hands-on projects and practical implementation.
-
-This repository documents my learning journey in machine learning, data analysis, and predictive modeling.
-
