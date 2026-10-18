@@ -27,6 +27,11 @@ A collection of hands-on machine learning projects using Python and Scikit-learn
 - Text classification / Spam detection / Categorical data classification
 - Model training and evaluation
 
+### 4. K-Nearest Neighbors (KNN)
+- **Data Preprocessing Fix:** Applied `StandardScaler` for feature scaling to improve model accuracy.
+- **Hyperparameter Tuning:** Evaluated model performance across multiple k values (k = 3, 5, 7).
+- **Performance Evaluation:** Optimized recall and precision metrics on the heart disease prediction dataset.
+
 ## Technologies Used
 
 - Python
@@ -42,6 +47,10 @@ A collection of hands-on machine learning projects using Python and Scikit-learn
 ```text
 machine-learning-models/
 ├── Linear_Regression/
+├── Logistic_Regression/
+├── Naive_Bayes/
+├── KNN/
+└── README.md
 ├── Logistic_Regression/
 ├── Naive_Bayes/
 └── README.md
