@@ -32,6 +32,12 @@ A collection of hands-on machine learning projects using Python and Scikit-learn
 - **Hyperparameter Tuning:** Evaluated model performance across multiple k values (k = 3, 5, 7).
 - **Performance Evaluation:** Optimized recall and precision metrics on the heart disease prediction dataset.
 
+### 5. Decision Trees & Pruning
+- **Model Training:** Building fully grown decision tree classifiers.
+- **Pre-Pruning:** Hyperparameter tuning using `max_depth` and `min_samples_split` to prevent overfitting.
+- **Post-Pruning (Cost-Complexity Pruning):** Calculating optimal `ccp_alphas` via `cost_complexity_pruning_path` and evaluating on test sets to select the best pruned tree.
+- **Visualization:** Plotting decision trees using `plot_tree` with customized feature and class names.
+
 ## Technologies Used
 
 - Python
@@ -50,7 +56,5 @@ machine-learning-models/
 ├── Logistic_Regression/
 ├── Naive_Bayes/
 ├── KNN/
-└── README.md
-├── Logistic_Regression/
-├── Naive_Bayes/
+├── Decision_Trees/
 └── README.md
